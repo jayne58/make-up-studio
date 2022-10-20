@@ -1,0 +1,250 @@
+/*Name:Project.css
+Table of contents
+  1.Navbar
+  2.Slider
+  3.About us
+  4.Services
+  5.Clients
+  6.Gallery
+  7.Contact
+  8.Footer 
+  */
+    /*=======
+   1.Navbar
+   ========*/
+.navbar .li{
+    display: inline-block;
+    padding:15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .li .a{
+    color: cadetblue;
+}
+.navbar .li .a:hover{
+    color:brown;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    margin-top: 25px;
+    background: cornflowerblue;
+}
+.navbar .navbar-nav .dropdown span{
+    font-size: 10px;
+    margin-left: 3px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a{
+    font-size: 16px;
+    color: cornsilk;
+    margin-bottom: 10px;
+}
+
+/*=======
+2.Slider
+===========*/
+body{
+        background-image: url(../image/pic14.jpg);
+        font-family: "poppins"sans-serif;
+        background-attachment:fixed;
+    
+    }
+.slider{
+    
+    font-family: "poppins"sans-serif;
+    background-attachment:fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 600px;
+    
+}
+.slider .particels{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.animated-headlines .cd-headline span{
+    font-size: 50px;
+    font-family: 'Muli',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:yellow;
+}
+.slider .left-content .welcome{
+    font-size: 30px;
+    font-weight: 300;
+    color:yellow;
+    margin: 0;
+    padding: 0;
+}
+.slider .left-content .paragraph{
+    font-size:30px;
+    font-weight: 400;
+    color: yellowgreen;
+    line-height: 28px;
+    padding-right: 20px;
+}
+     /*========
+      3.About us
+     =======*/
+.about-us {
+    padding:130px 0;
+    /*background-image: url(../image/pic14.jpg);*/
+    background-attachment: fixed;
+    height: 700px;
+
+}
+.about-us img{
+    margin-top: 80px;
+    
+}
+.about-us h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.about-us p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #bac8d3;
+    line-height: 28px;
+    margin: 20px 0 40px 0;
+}
+.about-us .info span {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.about-us .info p {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+    color:#ffffff;
+}
+
+    /*========
+     4.Services
+     =========*/
+.services {
+    padding-bottom: 90px;
+    /*background-image: url(../image/pic14.jpg);*/
+    background-attachment: fixed;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 60px;
+    margin-top:60px;
+}
+
+.services .box {
+    padding: 40px;
+    margin-bottom: 30px;
+    background: #212222;
+}
+.services .box span {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.services .box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.services .box p {
+    font-size: 14px;
+    color: #bac8d3;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+      /*=========
+         5.Clients
+       ============*/
+tr{
+
+    font-weight: bold;
+}
+
+.clients h2{
+    font-size:30px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.table{
+    
+    width: 100%;
+    height: 500px;
+}
+th{
+    font-size: 20px;
+}
+td{
+    font-size: 15px;
+}
+/*==============
+    6.Gallery
+===============*/
+.Gallery h1{
+    font-size: 30px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+/* ==========================
+    7.Contact
+========================== */
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #fcf2f2;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: yellow;
+    color: black;
+}
+
+
+/*========
+   8.Footer
+=============*/
+.footer .social-icons span{
+    color: #ffffff;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
